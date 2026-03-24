@@ -6,35 +6,45 @@ It provides reusable implementations of commonly used data structures such as Li
 The library is designed to work with any data type using C++ templates and demonstrates concepts of:
 
 Data Structures
+
 Generic Programming
+
 Object Oriented Programming
+
 Dynamic Memory Management
+
 Template Classes
 
 >Features
 
 The library contains implementation of:
 
-Data Structure	    
-Singly Linked List  (Linear), 
+Data Structure
 
-Singly Linked List  (Circular),
+Singly Linked List  (Linear)
 
-Doubly Linked List	(Linear),
+Singly Linked List  (Circular)
 
-Doubly Linked List	(Circular),
+Doubly Linked List	(Linear)
 
-Stack	              (Generic),
+Doubly Linked List	(Circular)
+
+Stack	              (Generic)
 
 Queue	              (Generic)
 
 All data structures support:
 
 Insert
+
 Delete
+
 Display
+
 Count
+
 Insert at position
+
 Delete at position
 
 (Stack & Queue have push/pop/enqueue/dequeue operations)
@@ -42,21 +52,33 @@ Delete at position
 >Technologies Used
 
 C++
+
 Templates (Generic Programming)
+
 Object Oriented Programming (OOP)
+
 Dynamic Memory Allocation
+
 Data Structures
 
 >Implemented Classes
 
 Linked Lists
+
 SinglyLLL
+
 DoublyLLL
+
 SinglyCLL
+
 DoublyCLL
+
 Stack
+
 Stack
+
 Queue
+
 Queue
 
 Each class is implemented using templates:
@@ -67,9 +89,13 @@ class SinglyLLL
 So it can store:
 
 int
+
 float
+
 char
+
 double
+
 any datatype
 
 >Learning Objectives
@@ -77,14 +103,21 @@ any datatype
 This project was created to practice:
 
 Linked List implementation
+
 Circular Linked List
+
 Doubly Linked List
+
 Stack using Linked List
+
 Queue using Linked List
+
 Templates in C++
+
 Memory management using new / delete
 
 >Author
 
 Ankita Shinde
+
 GitHub: https://github.com/theankita
