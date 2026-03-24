@@ -15,13 +15,13 @@ Template Classes
 
 The library contains implementation of:
 
-Data Structure	    Type	    Status
-Singly Linked List	Linear	   Done
-Singly Linked List	Circular	 Done
-Doubly Linked List	Linear	   Done
-Doubly Linked List	Circular	 Done
-Stack	              Generic	   Done
-Queue	              Generic	   Done
+Data Structure	    
+Singly Linked List  (Linear)
+Singly Linked List  (Circular)
+Doubly Linked List	(Linear)
+Doubly Linked List	(Circular)
+Stack	              (Generic)
+Queue	              (Generic)
 
 All data structures support:
 
