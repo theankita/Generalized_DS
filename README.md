@@ -16,11 +16,16 @@ Template Classes
 The library contains implementation of:
 
 Data Structure	    
-Singly Linked List  (Linear)
-Singly Linked List  (Circular)
-Doubly Linked List	(Linear)
-Doubly Linked List	(Circular)
-Stack	              (Generic)
+Singly Linked List  (Linear), 
+
+Singly Linked List  (Circular),
+
+Doubly Linked List	(Linear),
+
+Doubly Linked List	(Circular),
+
+Stack	              (Generic),
+
 Queue	              (Generic)
 
 All data structures support:
