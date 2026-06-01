@@ -1,123 +1,241 @@
->Generalized Data Structure Library in C++
+# Generalized Data Structures in C++
 
-This project is a Generic Data Structure Library implemented in C++ using templates.
-It provides reusable implementations of commonly used data structures such as Linked Lists, Stack, and Queue using a generalized approach.
+## Overview
 
-The library is designed to work with any data type using C++ templates and demonstrates concepts of:
+This project is a comprehensive implementation of fundamental Data Structures using C++. It is designed to demonstrate the concepts, operations, and practical applications of various linear and non-linear data structures.
 
-Data Structures
+The project provides efficient implementations of commonly used data structures along with their operations, helping students and developers understand the core concepts of Data Structures and Algorithms (DSA).
 
-Generic Programming
+The system focuses on building data structures from scratch using C++ without relying heavily on STL implementations, enabling a deeper understanding of memory management, data organization, and algorithm efficiency.
 
-Object Oriented Programming
+---
 
-Dynamic Memory Management
+## Features
 
-Template Classes
+* Implementation of Core Data Structures
+* Object-Oriented Programming (OOP) Concepts
+* Efficient Memory Management
+* Dynamic Data Handling
+* Search Operations
+* Insertion and Deletion Operations
+* Traversal Algorithms
+* Sorting Techniques
+* User-Friendly Console Interface
+* Modular and Reusable Code Structure
 
->Features
+---
 
-The library contains implementation of:
+## Technologies Used
 
-Data Structure
+### Programming Language
 
-Singly Linked List  (Linear)
+* C++
 
-Singly Linked List  (Circular)
+### Concepts
 
-Doubly Linked List	(Linear)
+* Data Structures
+* Algorithms
+* Object-Oriented Programming (OOP)
+* Dynamic Memory Allocation
+* Time Complexity Analysis
+* Space Complexity Analysis
 
-Doubly Linked List	(Circular)
+### Development Tools
 
-Stack	              (Generic)
+* GCC / G++
+* VS Code
+* Code::Blocks
+* Dev-C++
 
-Queue	              (Generic)
+---
 
-All data structures support:
+## Project Structure
 
-Insert
+```bash
+Generalized_DS/
+│
+├── Source Files
+│   ├── main.cpp
+│   ├── LinkedList.cpp
+│   ├── Stack.cpp
+│   ├── Queue.cpp
+│   ├── Tree.cpp
+│   └── Graph.cpp
+│
+├── Header Files
+│   ├── LinkedList.h
+│   ├── Stack.h
+│   ├── Queue.h
+│   ├── Tree.h
+│   └── Graph.h
+│
+├── README.md
+```
 
-Delete
+---
 
-Display
+## Data Structures Implemented
 
-Count
+### 1. Linked List
 
-Insert at position
+Operations:
 
-Delete at position
+* Insert
+* Delete
+* Search
+* Display
+* Count Nodes
 
-(Stack & Queue have push/pop/enqueue/dequeue operations)
+### 2. Stack
 
->Technologies Used
+Operations:
 
-C++
+* Push
+* Pop
+* Peek
+* Display
 
-Templates (Generic Programming)
+### 3. Queue
 
-Object Oriented Programming (OOP)
+Operations:
 
-Dynamic Memory Allocation
+* Enqueue
+* Dequeue
+* Front
+* Rear
 
-Data Structures
+### 4. Binary Tree
 
->Implemented Classes
+Operations:
 
-Linked Lists
+* Insert
+* Delete
+* Search
+* Traversals
 
-SinglyLLL
+  * Inorder
+  * Preorder
+  * Postorder
 
-DoublyLLL
+### 5. Graph
 
-SinglyCLL
+Operations:
 
-DoublyCLL
+* Add Vertex
+* Add Edge
+* BFS Traversal
+* DFS Traversal
 
-Stack
+---
 
-Stack
+## Workflow
 
-Queue
+User Input
+↓
+Select Data Structure
+↓
+Perform Desired Operation
+↓
+Process Data
+↓
+Display Result
 
-Queue
+---
 
-Each class is implemented using templates:
+## Core Modules
 
-template<class T>
-class SinglyLLL
+### Linked List Module
 
-So it can store:
+Manages dynamic node creation, insertion, deletion, and traversal operations.
 
-int
+### Stack Module
 
-float
+Implements Last-In-First-Out (LIFO) operations.
 
-char
+### Queue Module
 
-double
+Implements First-In-First-Out (FIFO) operations.
 
-any datatype
+### Tree Module
 
->Learning Objectives
+Provides hierarchical data storage and traversal functionality.
 
-This project was created to practice:
+### Graph Module
 
-Linked List implementation
+Supports graph representation and traversal algorithms.
 
-Circular Linked List
+---
 
-Doubly Linked List
+## Algorithms Used
 
-Stack using Linked List
+* Linear Search
+* Binary Search
+* Breadth First Search (BFS)
+* Depth First Search (DFS)
+* Sorting Algorithms
+* Recursive Traversals
 
-Queue using Linked List
+---
 
-Templates in C++
+## How to Run the Project
 
-Memory management using new / delete
+### Step 1: Clone Repository
 
->Author
+```bash
+git clone https://github.com/theankita/Generalized_DS.git
+```
 
-Ankita Shinde
+### Step 2: Navigate to Project Directory
 
-GitHub: https://github.com/theankita
+```bash
+cd Generalized_DS
+```
+
+### Step 3: Compile the Program
+
+```bash
+g++ *.cpp -o Generalized_DS
+```
+
+### Step 4: Run the Executable
+
+```bash
+./Generalized_DS
+```
+
+For Windows:
+
+```bash
+Generalized_DS.exe
+```
+
+---
+
+## Learning Outcomes
+
+* Understanding Data Structures from Scratch
+* Improving Problem-Solving Skills
+* Learning Memory Management in C++
+* Understanding Algorithm Efficiency
+* Strengthening DSA Fundamentals
+
+---
+
+## Future Improvements
+
+* GUI-Based Interface
+* STL-Based Comparison Module
+* Advanced Tree Structures
+* Hash Tables
+* Heap Implementation
+* Graph Shortest Path Algorithms
+* File Handling Support
+
+---
+
+## Author
+
+### Ankita Dnyanoba Shinde
+
+GitHub:
+https://github.com/theankita
