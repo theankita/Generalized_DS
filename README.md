@@ -44,8 +44,6 @@ The system focuses on building data structures from scratch using C++ without re
 
 * GCC / G++
 * VS Code
-* Code::Blocks
-* Dev-C++
 
 ---
 
